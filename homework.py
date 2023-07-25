@@ -19,10 +19,10 @@ class InfoMessage:
 
     def get_message(self) -> str:
         return (message.format(self.training_type,
-                                    self.duration,
-                                    self.distance,
-                                    self.speed,
-                                    self.calories))
+                               self.duration,
+                               self.distance,
+                               self.speed,
+                               self.calories))
 
 
 @dataclass
